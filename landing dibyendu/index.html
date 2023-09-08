@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      h1 {
+        display: inline;
+        margin-left: 30px;
+        font-family: "Inter", sans-serif;
+        padding: 5px;
+        font-size: 50px;
+      }
+      .right {
+        display: table;
+        margin-right: 30px;
+        font-family: "Inter", sans-serif;
+        padding: 0;
+        float: right;
+        height: 16px;
+        width: auto;
+        text-decoration: underline;
+      }
+      .right:hover{
+        background-color: gray;
+        color: whitesmoke;
+      }
+      .list div {
+        float: left;
+        display: table;
+        height: 20px;
+        width: auto;
+        text-decoration: underline;
+        padding: 5px;
+        margin-right: 10px;
+        font-weight: bold;
+        /* background-color: aqua; */
+      }
+      .list .feed {
+        float: right;
+        display: table;
+        height: 20px;
+        width: auto;
+        text-decoration: underline;
+        padding: 5px;
+        margin-right: 30px;
+        font-weight: bold;
+        /* background-color: aqua; */
+      }
+      #ram {
+        margin-right: 10px;
+      }
+      .hyu p {
+        float: left;
+        display: table;
+        height: 20px;
+        width: auto;
+        text-decoration: underline;
+        padding: 5px;
+        margin-right: 10px;
+        font-weight: bold;
+        /* background-color: aqua; */
+      }
+      .list div:hover {
+        background-color: gray;
+        color: whitesmoke;
+      }
+      .xp {
+        margin-left: 30px;
+      }
+      #mask {
+        float: right;
+        margin-right: 30px;
+      }
+      .context1 {
+        display: block;
+        font-size: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+        text-decoration: underline;
+        font-family: "Merriweather Sans", sans-serif;
+        color: white;
+        padding-bottom: 10px;
+      }
+      
+      .context2 {
+        font-size: 25px;
+        margin-left: 30px;
+        margin-right: 30px;
+        color: white;
+        padding-bottom: 48px;
+      }
+      .hey div {
+        background-color: rgb(34, 34, 34);
+        margin-right: 30px;
+        margin-left: 30px;
+      }
+      .column {
+        display: table;
+        float: left;
+        width: 33.33%;
+      }
+      .imgg {
+        float: none;
+        height: 350px;
+        width: 100%;
+        padding-right: 15px;
+        margin-left: 30px;
+      }
+      .p1 {
+        display: table;
+        font-family: "Inter", sans-serif;
+
+        height: 0;
+        width: auto;
+        text-decoration: underline;
+        font-weight: bold;
+        margin-left: 30px;
+        margin-bottom: 0;
+        padding-bottom: 4px;
+      }
+      .p1:hover{
+        background-color: gray;
+        color: whitesmoke;
+      }
+      .p2 {
+        margin-left: 30px;
+        margin-top: 0;
+        padding: 0;
+      }
+      @media (max-width: 900px) {
+        #mask {
+          object-fit: cover;
+          float: none;
+          padding: 0;
+          width: 100%;
+          margin: 0;
+          display: inline;
+        }
+        .context1 {
+          width: 100%;
+          height: auto;
+          display: block;
+          padding-top: 0;
+          margin: 0;
+        }
+        .context2 {
+          width: 100%;
+          height: auto;
+          display: block;
+          padding: 0;
+          margin-bottom: 5px;
+        }
+        .imgg {
+          object-fit: cover;
+          float: none;
+          padding: 5px;
+          width: 100%;
+          margin: 0;
+          display: inline;
+        }
+
+        h1 {
+          width: 100%;
+          height: auto;
+          display: block;
+          padding: 0;
+          margin: 0;
+          font-size: auto;
+        }
+
+        .right {
+          float: none;
+          width: 100%;
+          padding: 0;
+          margin: 0;
+        }
+        .list {
+          float: none;
+          width: 100%;
+          padding: 0;
+          margin: 0;
+
+          text-align: justify;
+        }
+      }
+      @media (max-width: 680px) {
+        .column {
+          object-fit: cover;
+          float: none;
+          padding: 0;
+          width: 100%;
+          margin: 0;
+          display: inline;
+        }
+        .hey {
+          object-fit: cover;
+          float: none;
+          padding: 5px;
+          width: 100%;
+          margin: 0;
+        }
+        .right {
+          float: none;
+          width: 100%;
+          padding: 0;
+          margin: 0;
+        }
+        .list {
+          float: none;
+          width: 100%;
+          padding: 0;
+          margin: 0;
+          display: block;
+          text-align: justify;
+        }
+        h1 {
+          width: 100%;
+          float: none;
+          display: block;
+          padding: 0;
+          font-size: auto;
+          text-align: centre;
+        }
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="all">
+      <div>
+        <h1>nature</h1>
+        <p class="right"><a href="http://127.0.0.1:3000/Practise/Log%20in.html#" style="color: black;">Log in</a></p>
+        <p class="right">Search</p>
+        <p class="right">View all journals</p>
+      </div>
+      <hr />
+      <div class="list">
+        <div class="xp">Explore content</div>
+        <div>About the journal</div>
+        <div>Publish with us</div>
+        <div>Subscribe</div>
+        <div class="feed">RSS feed</div>
+        <div id="ram" class="feed">Sign up for alerts</div>
+      </div>
+      <div class="hey">
+        <img
+          id="mask"
+          src="https://media.nature.com/lw767/magazine-assets/d41586-023-01961-7/d41586-023-01961-7_25488282.jpg?as=webp"
+          alt="A pedestrian passes a shop selling face masks in Hong Kong."
+        />
+        <div>
+          <p class="context1">
+            What makes a COVID superspreader? Scientists learn more after
+            deliberately infecting volunteers
+          </p>
+          <p class="context2">
+            A rigorous study identifies ‘supershedders’ who spew huge amounts of
+            virus into the air — despite having only mild symptoms.
+          </p>
+        </div>
+      </div>
+      <div class="column1">
+        <div class="column">
+          <img
+            class="imgg"
+            src="https://media.nature.com/lw767/magazine-assets/d41586-023-01972-4/d41586-023-01972-4_25489564.jpg?as=webp"
+            height="350px"
+            width="350px"
+            alt="Babies born by c-section can be smeared with their mother’s vaginal fluids."
+          />
+          <p class="p1">
+            Mum’s microbes might boost brain development of c-section babies
+          </p>
+          <p class="p2">
+            Vaginal seeding is safe and seems to benefit infants delivered by
+            the surgery — but larger trials are needed.
+          </p>
+        </div>
+        <div class="column">
+          <img
+            class="imgg"
+            src="https://media.nature.com/lw767/magazine-assets/d41586-023-01965-3/d41586-023-01965-3_25485036.jpg?as=webp"
+            height="350px"
+            width="350px"
+            alt="US President Joe Biden and IBM chief executive Arvind Krishna examine a quantum computer at the company’s facility in Poughkeepsie, New York."
+          />
+          <p class="p1">IBM quantum computer passes calculation milestone</p>
+          <p class="p2">
+            ‘Benchmark’ experiment suggests quantum computers could have useful
+            real-world applications within two years.
+          </p>
+        </div>
+        <div class="column">
+          <img
+            id="special"
+            class="imgg"
+            src="https://media.nature.com/lw767/magazine-assets/d41586-023-01974-2/d41586-023-01974-2_25466770.jpg?as=webp"
+            height="350px"
+            width="350px"
+            alt="Researchers laboriously sifted through clay, bucket by bucket, using their fingers to hunt for bone fragments."
+          />
+          <p class="p1">
+            Daily briefing: Laotian cave fossils rewrite human migration story
+          </p>
+          <p class="p2">
+            Early humans migrated through Asia earlier than previously thought.
+            Plus, how naturalistic animal experiments help to decode the brain
+            and magnetism could explain biological molecules’ handedness.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
